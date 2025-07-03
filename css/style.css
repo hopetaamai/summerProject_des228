@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'way-come';
+    src: url('../fonts/WayCome.ttf');
+}
+
 html {
     height: 100vh;
 }
@@ -44,9 +49,9 @@ nav {
 }
 
 .nav a {
-    font-family:"filson-pro", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
     text-decoration: none;
 }
 
@@ -88,8 +93,9 @@ footer {
 /* TEXT STYLING */ 
 
 h1 {
-    color:brown;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    font-family: "way-come";
+    font-size: 100px;
     font-weight: 400;
     font-style: normal; 
     text-align: center;
@@ -97,14 +103,12 @@ h1 {
 }
 
 h2 {
-    background-color: blueviolet;
     padding: 5px;
     margin: 10px 20px 10px 20px;
     text-align: center;
 }
 
 p {
-    background-color: green;
     color:white;
     text-align: justify;
     margin: 5%;
@@ -165,6 +169,7 @@ h3 {
     justify-content: space-evenly;
     gap: 10px;
     padding: 20px;
+    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -201,6 +206,8 @@ h3 {
     flex-wrap: wrap;
     gap: 20px;
     padding: 0;
+    margin-left: 40px;
+    margin-right: 40px;
     list-style: none;
     justify-content: center;
 }
@@ -222,4 +229,10 @@ h3 {
     flex: 0 0 auto;
     width: 200px;
     text-align: center;
+}
+
+.content-section {
+    border-top: 2px;
+    padding: 40px 0;
+    margin-top: 50px;
 }
