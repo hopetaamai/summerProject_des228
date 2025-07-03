@@ -57,20 +57,30 @@ nav {
 
 footer {
     background-color: greenyellow;
-    padding: 30px 10px;
+    padding: 0px 10px;
     font-family: "Albert Sans", sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
-footer a {
-    text-decoration: none;
-    color: orangered;
-    font-weight: bold;
+.contact {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	margin: 0 100px 0 100px;
+	gap: 10px;
+}
+
+.social-links {
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
 }
 
 
