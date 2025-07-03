@@ -129,6 +129,7 @@ h3 {
     color:rgb(34, 42, 42);
     font-family: "greycliff-cf" sans-serif;
     font-size: 20px;
+    font-weight: 300;
     font-style: normal;
     text-align: center;
     padding: 5px;
@@ -256,4 +257,13 @@ h3 {
     border-top: 2px;
     padding: 40px 0;
     margin-top: 50px;
+}
+
+img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+    filter:brightness(1.1);
 }
