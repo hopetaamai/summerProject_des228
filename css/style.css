@@ -42,10 +42,10 @@ header {
     display: flex;
     flex-wrap: nowrap;
     text-align: center;
-    align-content:space-evenly;
+    align-content:baseline;
    
     padding: 10px 20px;
-    gap: 20px;
+    gap: 50px;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
